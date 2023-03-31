@@ -1,0 +1,65 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emojis-container {
+  background-color: #ffffff;
+  width: 50%;
+  padding: 20px;
+}
+.question-heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.list-item {
+  list-style-type: none;
+}
+.emojis-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+.emoji-button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.emoji {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 30px;
+}
+
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-emoji {
+  height: 55px;
+  width: 60px;
+}
+
+.thank-you-text {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.feedback {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+}
